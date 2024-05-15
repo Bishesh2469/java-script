@@ -117,3 +117,20 @@ console.log(person);
 let persons=["hari","shyam"];
 persons[2]="ram";
 console.log(persons);
+
+let student=["yan","bishesh"];
+  age={
+    yan:17,
+    bisehsh:17,
+  };
+  hobbies={
+
+  }
+  let student1={
+    age:17,
+    name:"yan magar (tede)",
+    hobbies:["calisthenics","battel royal",],
+  };
+  // yan name gareko student ko age 17 xa rw tesko hobbies chai yehi ho.
+ 
+  console.log(`${student1.name} name gareko student ko age ${student1.age} xa rw tesko hobbies chai ${student1.hobbies[1]} ho. `);
